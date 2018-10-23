@@ -1,32 +1,31 @@
 body {
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 header {
+  font-family: 'Bitter', serif;
+  display: flex;
   height: 100vh;
   opacity: .9;
   background-image: url(../img/main-background.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  display: flex;
+  background-size: cover;
   justify-content: center;
   align-items: center;
-  font-family: sans-serif;
 }
 
 h1 {
-  text-align: center;
-  color: #ffffff;
-  margin-bottom: 70px;
   font-size: 45px;
+  margin-bottom: 70px;
+  text-align: center;
   letter-spacing: 2px;
+  color: #fff;
 }
 
 span {
   color: #f44336;
-
 }
 
 .search-field {
@@ -43,18 +42,19 @@ span {
 }
 
 .search-btn {
-  height: 50px;
   width: 150px;
-  background: #f44336;
-  border: none;
+  height: 50px;
   color: #fff;
+  border: none;
+  background: #f44336;
 }
 
 .search-btn:hover {
-  background: #bb0d00;
   cursor: pointer;
+  background: #bb0d00;
 }
-.form-box{
-  background: rgba(255,255,255,0.5);
+
+.form-box {
   padding: 10px 25px;
+  background: rgba(255, 255, 255, .5);
 }
